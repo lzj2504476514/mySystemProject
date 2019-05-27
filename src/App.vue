@@ -1,7 +1,7 @@
 <template>
     <!--页面结构-->
     <div>
-        <mt-header fixed title="我的商城系统"></mt-header>
+        <mt-header fixed title="潘达系统"></mt-header>
         <nav class="mui-bar mui-bar-tab">
             <router-link class="mui-tab-item" to="/home">
                 <span class="mui-icon mui-icon-home"></span>
@@ -62,9 +62,6 @@ import {Toast} from 'mint-ui'//jscomponents需要重新导入一次才能用，�
 </script>
 <style slot-scope>
 /*scoped 表示该样式只限当前页面内部使用*/
-#swipe{
-    height: 300px;
-}
 mt-swipe{
     padding-bottom: 40px;
     height: 300px;
@@ -75,10 +72,6 @@ mt-swipe-item{
     height: 300px;
     width: 100%;
     background-color: #8a6de9;
-}
-#imgs{
-    height: 300px;
-    width: 100%;
 }
 .mystyle{
     top:-4px;
@@ -105,13 +98,5 @@ mt-swipe-item{
     left: -32px;
     bottom: -9px;
 
-}
-.flex-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-between;
-    text-align: center;
 }
 </style>
